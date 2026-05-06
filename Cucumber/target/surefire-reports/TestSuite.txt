@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.88 s <<< FAILURE! -- in TestSuite
+runner.TestngRunner.runScenario["Verify valid login credentials", "05_04_2026 - LoginFeatures"](1) -- Time elapsed: 10.60 s <<< FAILURE!
+java.lang.AssertionError: expected [Log in] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.LoginStepDefinitin.the_login_card_title_should_be_verified(LoginStepDefinitin.java:43)
+	at ✽.the Login card title should be verified(file:///C:/Users/Muhindhar%20S%20V/eclipse-workspace/Cucumber/src/test/resources/com/features/Login.feature:9)
+
